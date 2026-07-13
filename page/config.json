@@ -13,5 +13,34 @@
   ],
   "sidebarLinks": [
     { "title": "GitHub", "url": "https://github.com", "external": true }
-  ]
+  ],
+  "home": {
+    "badge": "OWD.K-MD3",
+    "heroTitle": "构建更好的文档",
+    "heroSubtitle": "基于 Material Design 3 的轻量级文档站点框架",
+    "heroDescription": "只需编写 Markdown 文件，即可拥有一个现代化的、支持暗色模式的文档网站。Material Design 3 设计规范，响应式布局，开箱即用。",
+    "primaryAction": { "text": "开始阅读", "link": "page/" },
+    "secondaryAction": { "text": "GitHub", "link": "https://github.com" },
+    "featuresTitle": "核心特性",
+    "featuresDescription": "OWD.K-MD3 为你提供现代文档站点的所有必需功能",
+    "features": [
+      { "title": "Markdown 驱动", "icon": "edit", "description": "使用标准的 Markdown 语法编写文档，支持代码高亮、表格、任务列表等丰富格式" },
+      { "title": "Material Design 3", "icon": "palette", "description": "严格遵循 MD3 设计规范，完整的设计令牌系统，精致的视觉层次与动效" },
+      { "title": "亮色/暗色主题", "icon": "darkmode", "description": "内置亮色与暗色双主题，自动跟随系统偏好，也支持手动一键切换" },
+      { "title": "响应式布局", "icon": "devices", "description": "桌面端侧边栏+目录双栏布局，移动端自适应 Drawer 抽屉导航，随时随地查阅" },
+      { "title": "零构建工具", "icon": "bolt", "description": "纯前端实现，零依赖构建。只需一个静态服务器即可运行，无需 Node.js 配置" },
+      { "title": "JSON 配置驱动", "icon": "tune", "description": "通过 config.json 管理站点名称、导航菜单、外部链接，无需修改任何代码" }
+    ],
+    "navCardsTitle": "文档导航",
+    "linksTitle": "外部链接",
+    "widgets": {
+      "enabled": true,
+      "file": "docs/_widgets.md",
+      "header": {
+        "label": "Widgets",
+        "title": "功能面板",
+        "description": "快速了解项目动态与核心信息"
+      }
+    }
+  }
 }
